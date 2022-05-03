@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BidstackCustomAdapterAdMob"
-  spec.version      = "1.2.0"
+  spec.version      = "1.2.1"
   spec.summary      = "Bidstack Custom Adapter for AdMob v9.0.0+"
 
   spec.description  = <<-DESC
@@ -24,6 +24,6 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "BidstackCustomAdapterAdMob.xcframework"
   
   spec.dependency 'Google-Mobile-Ads-SDK', '~> 9'
-  spec.dependency 'BidstackMobileAdsSDK', '~> 1.2.0'
+  spec.dependency 'BidstackMobileAdsSDK', '~> 1.2.1'
  	
 end
