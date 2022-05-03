@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BidstackCustomAdapterAdMob"
-  spec.version      = "1.2.2"
+  spec.version      = "1.2.3"
   spec.summary      = "Bidstack Custom Adapter for AdMob v9.0.0+"
 
   spec.description  = <<-DESC
@@ -15,9 +15,6 @@ Pod::Spec.new do |spec|
   spec.author       = { "Liene Ungure" => "liene.alka@bidstack.com" }
   spec.platform     = :ios, "11.0"
   spec.swift_version = '5.0'
-    
-  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386' }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386' }
                                    							                                   
   spec.source       = { :git => "https://github.com/bidstack-group/BidstackCustomAdapterAdMob-iOS.git", :tag => "v#{spec.version}" }
   

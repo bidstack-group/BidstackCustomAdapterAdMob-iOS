@@ -14,19 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		R+wfqfJtfwkBgENWlahv+/zffrE=
+		KID3wQ6cKeiZCuYCOy330vmugc4=
 		</data>
 		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PsgOlIdfQinsgAXTt3G3evS+wW0=
+		0MY0h82IRG41pIrKnORsVZQLs1E=
 		</data>
 		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		s06iJWTCT6B7AwKApKD6aTJ9d+g=
+		UpizTJV3JWTlAseGphfr/miqYC0=
 		</data>
 		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TnEcaRKYYN8eN9+m6ur7iZwojmM=
+		Sugd7gjUJGYGBYApBUxqO+Fuuvg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,33 +61,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PsgOlIdfQinsgAXTt3G3evS+wW0=
+			0MY0h82IRG41pIrKnORsVZQLs1E=
 			</data>
 			<key>hash2</key>
 			<data>
-			lxvzciLp27wUrSvlBv0dXnbyQy5GimXbnGOwaQkkzPo=
+			adGRFuRu4z11cKARXla8fhjj0o+q5pA0W5nlX3ryc6w=
 			</data>
 		</dict>
 		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s06iJWTCT6B7AwKApKD6aTJ9d+g=
+			UpizTJV3JWTlAseGphfr/miqYC0=
 			</data>
 			<key>hash2</key>
 			<data>
-			pqqkagGhqJTooJ+kBhaPxOX4byCj+utFuoEbC503Oq0=
+			PyMynUr90dGeC+WT1H0uiTYdzhS3kJoIZCrUxdBw2mk=
 			</data>
 		</dict>
 		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TnEcaRKYYN8eN9+m6ur7iZwojmM=
+			Sugd7gjUJGYGBYApBUxqO+Fuuvg=
 			</data>
 			<key>hash2</key>
 			<data>
-			LPr0lcLqvVgOrEMtANFlWpTpzpcqkB0kPQSWlSdFbus=
+			Dl8jV53wltZOxnr5HAH07ijcxJb34VMCIeuCUDct9G8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
