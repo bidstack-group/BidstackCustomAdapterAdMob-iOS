@@ -4,101 +4,41 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/BidstackCustomAdapterAdMob-Swift.h</key>
-		<data>
-		VC90NEUMtH66uZXfuiGGK8SogP8=
-		</data>
 		<key>Headers/BidstackCustomAdapterAdMob.h</key>
 		<data>
-		RZ+oioif5OiqRYXoSmUge78WkVM=
+		VtcKGBD23CnvnE7IWtAc0L9nyCE=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		KID3wQ6cKeiZCuYCOy330vmugc4=
 		</data>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		0MY0h82IRG41pIrKnORsVZQLs1E=
-		</data>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		UpizTJV3JWTlAseGphfr/miqYC0=
-		</data>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		Sugd7gjUJGYGBYApBUxqO+Fuuvg=
-		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		tQ+I45dpqse6USgxzF3e7ALA/cY=
+		sR7HhdtUvt6AMB6IuIeeiAirh7g=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/BidstackCustomAdapterAdMob-Swift.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VC90NEUMtH66uZXfuiGGK8SogP8=
-			</data>
-			<key>hash2</key>
-			<data>
-			nv5KXRa1DV7bXnS/Ctxeb/m9ndvDjsVwdduzvCJgxsU=
-			</data>
-		</dict>
 		<key>Headers/BidstackCustomAdapterAdMob.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RZ+oioif5OiqRYXoSmUge78WkVM=
+			VtcKGBD23CnvnE7IWtAc0L9nyCE=
 			</data>
 			<key>hash2</key>
 			<data>
-			NOIySmrEgeV+GXEnPNZCaSkZicX6/ECNEgys/1AlJN4=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0MY0h82IRG41pIrKnORsVZQLs1E=
-			</data>
-			<key>hash2</key>
-			<data>
-			adGRFuRu4z11cKARXla8fhjj0o+q5pA0W5nlX3ryc6w=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UpizTJV3JWTlAseGphfr/miqYC0=
-			</data>
-			<key>hash2</key>
-			<data>
-			PyMynUr90dGeC+WT1H0uiTYdzhS3kJoIZCrUxdBw2mk=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Sugd7gjUJGYGBYApBUxqO+Fuuvg=
-			</data>
-			<key>hash2</key>
-			<data>
-			Dl8jV53wltZOxnr5HAH07ijcxJb34VMCIeuCUDct9G8=
+			tX1tT9UMGye5XstjfkXieVwuhSXbAY5VLI1ITUD2FRw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tQ+I45dpqse6USgxzF3e7ALA/cY=
+			sR7HhdtUvt6AMB6IuIeeiAirh7g=
 			</data>
 			<key>hash2</key>
 			<data>
-			+RrFoUa4Bo2Fn1N/Fk4+lEc2H55JL9CCEiIk0N3nOyk=
+			HIG51srSbbYfwJ0vavSqjyqIsxxi0uOurwsVSLxTFY4=
 			</data>
 		</dict>
 	</dict>
