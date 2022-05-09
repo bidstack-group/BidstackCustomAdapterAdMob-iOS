@@ -4,146 +4,41 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/BidstackCustomAdapterAdMob-Swift.h</key>
-		<data>
-		MZtaQFoC6KTrIjObztYvG2NZuBw=
-		</data>
 		<key>Headers/BidstackCustomAdapterAdMob.h</key>
 		<data>
-		RZ+oioif5OiqRYXoSmUge78WkVM=
+		VtcKGBD23CnvnE7IWtAc0L9nyCE=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		OEJechmWw0vHm/eRyAnE9r4z5iU=
 		</data>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<data>
-		IZs9/WkxmKbXiUsT8WrODUdRM18=
-		</data>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<data>
-		DvmfDkgUgy9gOPnIxx2AAm2KMu4=
-		</data>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		NvC0z2ajxWd1rvHxvCrwRbwZlxk=
-		</data>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<data>
-		ypbgQt5IHkYZhvWzAiS6naIM16Y=
-		</data>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/armv7-apple-ios.swiftinterface</key>
-		<data>
-		uiF+I6xGseTkRwsFfMI0Nfs/73c=
-		</data>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<data>
-		K6LCDbb5vTcxFmqjzpyYrC5zxyc=
-		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		tQ+I45dpqse6USgxzF3e7ALA/cY=
+		sR7HhdtUvt6AMB6IuIeeiAirh7g=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/BidstackCustomAdapterAdMob-Swift.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MZtaQFoC6KTrIjObztYvG2NZuBw=
-			</data>
-			<key>hash2</key>
-			<data>
-			e+MKyqpRIYCyWUUTeRHHRp134i3bUm+Uw6+N8Ad3r+A=
-			</data>
-		</dict>
 		<key>Headers/BidstackCustomAdapterAdMob.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RZ+oioif5OiqRYXoSmUge78WkVM=
+			VtcKGBD23CnvnE7IWtAc0L9nyCE=
 			</data>
 			<key>hash2</key>
 			<data>
-			NOIySmrEgeV+GXEnPNZCaSkZicX6/ECNEgys/1AlJN4=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			IZs9/WkxmKbXiUsT8WrODUdRM18=
-			</data>
-			<key>hash2</key>
-			<data>
-			Uc6JAnU5huPAK4wc4tKUvoKi6Wm1RI28QY3BPnEhmR8=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DvmfDkgUgy9gOPnIxx2AAm2KMu4=
-			</data>
-			<key>hash2</key>
-			<data>
-			XZ9szfCUbcXm3Dp8dnoCmZsMgRzviDn4Vqhv3Z0CE9s=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NvC0z2ajxWd1rvHxvCrwRbwZlxk=
-			</data>
-			<key>hash2</key>
-			<data>
-			J1Agfzbg2v6GaXTXvgTQWOz8EL4hfS8jYtD/9qrhDWs=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ypbgQt5IHkYZhvWzAiS6naIM16Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			JacR+ja5YlPD+YTSUh83czON3BzxxHLzCKkR4T4P0dM=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/armv7-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uiF+I6xGseTkRwsFfMI0Nfs/73c=
-			</data>
-			<key>hash2</key>
-			<data>
-			DQ7aEtQsJSh+J4219atEunaOZ/7tvTJnpFm0WuyJY4g=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAdMob.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			K6LCDbb5vTcxFmqjzpyYrC5zxyc=
-			</data>
-			<key>hash2</key>
-			<data>
-			ROjatuEVgYoPvMDBJ2y12UYbRVgxmGpET6pP1bHb/sU=
+			tX1tT9UMGye5XstjfkXieVwuhSXbAY5VLI1ITUD2FRw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tQ+I45dpqse6USgxzF3e7ALA/cY=
+			sR7HhdtUvt6AMB6IuIeeiAirh7g=
 			</data>
 			<key>hash2</key>
 			<data>
-			+RrFoUa4Bo2Fn1N/Fk4+lEc2H55JL9CCEiIk0N3nOyk=
+			HIG51srSbbYfwJ0vavSqjyqIsxxi0uOurwsVSLxTFY4=
 			</data>
 		</dict>
 	</dict>

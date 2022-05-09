@@ -4,8 +4,3 @@ framework module BidstackCustomAdapterAdMob {
   export *
   module * { export * }
 }
-
-module BidstackCustomAdapterAdMob.Swift {
-    header "BidstackCustomAdapterAdMob-Swift.h"
-    requires objc
-}
