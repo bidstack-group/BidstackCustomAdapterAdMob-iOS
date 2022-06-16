@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BidstackCustomAdapterAdMob"
-  spec.version      = "1.2.3"
+  spec.version      = "1.4.0"
   spec.summary      = "Bidstack Custom Adapter for AdMob v9.0.0+"
 
   spec.description  = <<-DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
 
   spec.author       = { "Liene Ungure" => "liene.alka@bidstack.com" }
-  spec.platform     = :ios, "10.0"
+  spec.platform     = :ios, "11.0"
   spec.swift_version = '5.0'
 
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386' }
@@ -25,6 +25,6 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "BidstackCustomAdapterAdMob.xcframework"
   
   spec.dependency 'Google-Mobile-Ads-SDK', '~> 9'
-  spec.dependency 'BidstackMobileAdsSDK', '~> 1.2.1'
+  spec.dependency 'BidstackMobileAdsSDK', '~> 1.4.0'
  	
 end
