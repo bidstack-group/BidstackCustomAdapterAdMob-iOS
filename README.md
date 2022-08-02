@@ -52,7 +52,7 @@ Before integrating the adapter you will need to set up the Bidstack network on y
 
 <img src="images/map-ad-unit.png" width="700">
 
-#####Retrieving `API_KEY` and `AD_UNIT_ID` from AdConsole:
+##### Retrieving `API_KEY` and `AD_UNIT_ID` from AdConsole:
 
 8. Login into your AdConsole account and add a new game or select existing
 
