@@ -55,15 +55,15 @@ Before integrating the adapter you will need to set up the Bidstack network on y
 **Retrieving `API_KEY` and `AD_UNIT_ID` from AdConsole:**
 8. Login into your AdConsole account and add a new game or select existing
 
-<img src="docs/images/selecting-game.jpg" width="700"/>
+<img src="images/selecting-game.jpg" width="700"/>
 
 9. From the navigation menu select `SDK control panel` and copy the API key. Paste this API key in the AdMob dashboard
 
-<img src="docs/images/adConsole-api-key.jpg" width="700"/>
+<img src="images/adConsole-api-key.jpg" width="700"/>
 
 10. From the navigation menu select `Ad units`. And then create and copy ad unit id. Also, paste the ad unit id in the AdMob dashboard
 
-<img src="docs/images/adConsole-adUnit-id.jpg" width="700"/>
+<img src="images/adConsole-adUnit-id.jpg" width="700"/>
 
 11. When everything is set, press **DONE** and **SAVE** in the AdMob dashboard.
 
