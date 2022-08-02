@@ -60,7 +60,7 @@ Before integrating the adapter you will need to set up the Bidstack network on y
 
 9. From the navigation menu select `SDK control panel` and copy the API key. Paste this API key in the AdMob dashboard
 
-<img src="images/adConsole-api-key.jpg" width="700"/>
+<img src="images/api-key.jpg" width="700"/>
 
 10. From the navigation menu select `Ad units`. And then create and copy ad unit id. Also, paste the ad unit id in the AdMob dashboard
 
