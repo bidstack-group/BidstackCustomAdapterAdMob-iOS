@@ -1,8 +1,6 @@
 # Bidstack AdMob Adapter iOS installation guide
 
-The Bidstack AdMob Adapter for iOS allows you to display Interstitial and Rewarded ads in your app through AdMob.
-
-The adapter supports iOS 11 and up and GoogleMobileAdsSDK 9.2.0 and up.
+The Bidstack AdMob Adapter for iOS allows you to display Interstitial and Rewarded Video ads in your app through AdMob.
 
 ## Table of contents
 
@@ -14,35 +12,63 @@ The adapter supports iOS 11 and up and GoogleMobileAdsSDK 9.2.0 and up.
 
 Required: iOS version 11+
 
-Required: If you're planning to integrate adapter manually, then you need to download **BidstackCustomAdapterAdMob.xcframework** and **BidstackMobileAdsSDK.xcframework** provided by Bidstack.
+Required: If you're planning to integrate adapter manually, then you need to download **BidstackCustomAdapterAdMob.xcframework** and **BidstackMobileAdsSDK.xcframework** from [here](https://console.bidstack.com/developer/downloads). (Look for **AdMob Adapter -> iOS**).
 
-### 1. Integrate GoogleMobileAdsSDK as documented [here](https://developers.google.com/admob/ios/quick-start) and integrate [interstitial](https://developers.google.com/admob/ios/interstitial) and [rewarded](https://developers.google.com/admob/ios/rewarded) ads.
+Before integrating the adapter you will need to set up the Bidstack network on your AdMob account as documentad [here](https://support.google.com/admob/answer/3124703?hl=en&ref_topic=7383089#) and add a custom event as documented [here](https://support.google.com/admob/answer/3083407?visit_id=637861286402486571-3970687058&rd=1#) or follow the instructions in the header [Configure the ad network account settings](#configure-the-ad-network-account-settings) and integrate the AdMob as documented [here](https://developers.google.com/admob/ios/mediate)
 
-### 2. Gather API key and ad unit ID's from [AdConsole](https://console.bidstack.com/auth/login).
+#### Configure the ad network account settings
 
-### 3. Create mediation groups for each ad type in your AdMob dashboard:
+1. Login into your AdMob dashboard and go to **Mediation**. Then create a new mediation group or select created.
 
-1. Go to **Mediation** and select **Create meadiation group**. Select Ad format (Interstitial or Rewarded) and platform (iOS).
-2. Enter Name of your Mediation Group (choose something for you to easy understand, like **Bidstack Mediation Interstitial** or **Bidstack Mediation Rewarded**).
-3. Add Ad Units (ad units must be pre-created).
-4. `Add Custom Event` at the end of the page. Enter Label and eCPM for custom event and press `Continue`.
+<img src="images/create-mediation-group.png" width="700">
 
-5. Add Class Name and Parameter:
-**IMPORTANT** - If you are creating mediation group for Interstitial ad, **Class Name** must be `BidstackInterstitialEvent` and for Rewarded ad - `BidstackRewardedEvent`.
+2. (If you already have a mediation group skip to point 5). For creating a mediation group choose the appropriate ad format and platform and click `Continue`
 
-**Parameter** must be in the format `{"appId": "APP_ID", "unitId": "AD_UNIT_ID"}` where:
- - `APP_ID` is the API key you retrieved from AdConsole
+<img src="images/select-platform.png" width="700">
+
+3. Enter any name for your mediation group and press `Add Ad Units`.
+
+<img src="images/enter-name.png" width="700">
+
+4. Choose ad units from your app and press `Done`.
+
+<img src="images/select-ad-units.png" width="300">
+
+5. Ad the bottom of the page press `Add Custom Event`
+
+<img src="images/add-custom-event.png" width="700">
+
+6. Enter any label for the custom event and also add eCPM. Then click `Continue`.
+
+<img src="images/custom-event.png" width="500">
+
+7. When prompted for `Class Name` enter:
+    * `BidstackInterstitialEvent` for interstitial
+    * `BidstackRewardedEvent` for rewarded
+    
+8. In the `Parameter` field you will need to enter the API key and ad unit ID from the AdConsole in the JSON format `{"appId": "API_KEY", "unitId": "AD_UNIT_ID"}` where:
+ - `API_KEY` is the API key you retrieved from AdConsole
  - `AD_UNIT_ID` is the ad unit ID you retrieved from AdConsole
 
-Now it should look similar to the picture belove:
+<img src="images/map-ad-unit.png" width="700">
 
-<img src="images/bcad-1.png" width="700">
+##### Retrieving `API_KEY` and `AD_UNIT_ID` from AdConsole:
 
-6. When everything is set, press **DONE** and **SAVE**.
+8. Login into your AdConsole account and add a new game or select existing
 
+<img src="images/selecting-game.jpg" width="700"/>
+
+9. From the navigation menu select `SDK control panel` and copy the API key. Paste this API key in the AdMob dashboard
+
+<img src="images/api-key.jpg" width="700"/>
+
+10. From the navigation menu select `Ad units`. And then create and copy ad unit id. Also, paste the ad unit id in the AdMob dashboard
+
+<img src="images/adConsole-adUnit-id.jpg" width="700"/>
+
+11. When everything is set, press **DONE** and **SAVE** in the AdMob dashboard.
 
 **Note**: You may need to wait several minutes until AdMob will recognize Bidstack Adapter.
-
 
 ## Integration 
 
