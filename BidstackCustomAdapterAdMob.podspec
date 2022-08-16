@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BidstackCustomAdapterAdMob"
-  spec.version      = "1.6.0"
+  spec.version      = "1.6.1"
   spec.summary      = "Bidstack Custom Adapter for AdMob v9.0.0+"
 
   spec.description  = <<-DESC
