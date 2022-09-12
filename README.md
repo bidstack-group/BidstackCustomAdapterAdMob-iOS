@@ -114,7 +114,7 @@ In order to make sure that the framework will get copied to your app’s binary,
 
 Navigate to the Build Phases tab, disclose the “Link Binary With Libraries” list and both frameworks are included in the list. It should already be included by default after following the steps above, however in case it’s not – click on the + button and add it.
 
-Then make sure both framework Status is `Required`.
+Then make sure that all framework Status is `Required`.
 
 ![](images/bcad-5.png)
 
