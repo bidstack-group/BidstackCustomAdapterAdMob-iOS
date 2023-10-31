@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BidstackCustomAdapterAdMob"
-  spec.version      = "1.9.1"
-  spec.summary      = "Bidstack Custom Adapter for AdMob v9.0.0+"
+  spec.version      = "2.2.0"
+  spec.summary      = "Bidstack Custom Adapter for AdMob v10.0.0+"
 
   spec.description  = <<-DESC
 			  The Bidstack AdMob Adapter for iOS allows you to display Interstitial and Rewarded ads in your app through AdMob.
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.preserve_path = "README.md"
 
   spec.author       = "Bidstack Limited"
-  spec.platform     = :ios, "11.0"
+  spec.platform     = :ios, "12.0"
   spec.swift_version = '5.0'
 
   spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphoneos*]' => 'arm64', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
@@ -24,6 +24,6 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "BidstackCustomAdapterAdMob.xcframework"
   
   spec.dependency 'Google-Mobile-Ads-SDK', '~> 10.3'
-  spec.dependency 'BidstackMobileAdsSDK', '~> 1.9.1'
+  spec.dependency 'BidstackMobileAdsSDK', '~> 2.2.0'
  	
 end

@@ -1,6 +1,6 @@
 framework module BidstackCustomAdapterAdMob {
   umbrella header "BidstackCustomAdapterAdMob.h"
-
   export *
+
   module * { export * }
 }
