@@ -73,7 +73,7 @@ There are two ways how you can integrate **BidstackCustomAdapterAdMob** into you
 ### Using CocoaPods
 
 Add to your podfile:
-`pod 'BidstackCustomAdapterAdMob', '~> 2.2.0'`
+`pod 'BidstackCustomAdapterAdMob', '~> 2.3.0'`
 
 That's it! Now you can run `pod install` from your Terminal and **BidstackCustomAdapterAdMob** and **BidstackMobileAdsSDK** will be installed automatically. No additional steps needed.
 <div class="page-break"></div> 
@@ -148,4 +148,4 @@ If the user is a child, set the following flag to `true`:
 ## Supported versions
 
 * iOS 12 and up
-* GoogleMobileAdsSDK 10.0.0 and up
+* GoogleMobileAdsSDK 11.1.0 and up
