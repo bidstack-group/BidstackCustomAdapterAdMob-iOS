@@ -73,7 +73,7 @@ There are two ways how you can integrate **BidstackCustomAdapterAdMob** into you
 ### Using CocoaPods
 
 Add to your podfile:
-`pod 'BidstackCustomAdapterAdMob', '~> 2.3.2'`
+`pod 'BidstackCustomAdapterAdMob', '~> 2.4.0'`
 
 That's it! Now you can run `pod install` from your Terminal and **BidstackCustomAdapterAdMob** and **BidstackMobileAdsSDK** will be installed automatically. No additional steps needed.
 <div class="page-break"></div> 
